@@ -175,6 +175,11 @@ h1 span{
         font-weight: bold;
     }
 
+    .news-cont{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
     .news-content li{
         position: relative;
         border-top: solid 1px black;
@@ -200,6 +205,20 @@ h1 span{
         z-index: 2;
     }
 
+    .news-tags{
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .news-tags div{
+        display: inline-block; _display: inline;
+        margin-right: 5px;
+        padding: 4px 6px;
+        background-color: black;
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+    }
 
 .about-content{
     font-size: 24px;
